@@ -9,6 +9,7 @@ header{
     width: 550px;
     height: 91px;
     background-color: black;
+    box-shadow: 2px 2px;
 }
 p{
     width: 259px;
@@ -27,25 +28,18 @@ img{
     padding-left: 26px;
     
 }
-.icon{
- display: flex;
- justify-content: center;
- align-items: center;
+section{
+    background-image: url(reactjs-icon\ 2.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top right;
 }
-.reacticon{
-    margin-left: 27px;
-    width: 200px;
-    height: 200px;
-    padding-top: 80px;
-   
-}
-
 h1{
     width: 424px;
     height: 41px;
     color: white;
-    margin-top: 50px;
-    margin-left: 27px;
+    margin-top: 40px;
+    margin-left: 3px;
     font-size: 39.06px;
     font-weight: 700px;
     font-family: 'Times New Roman', Times, serif;
@@ -61,9 +55,13 @@ ul{
 }
 li::marker{
     color: #61DAFB;
-    
+    line-height: 1.5;
+    font-size: 30px;
 }
-#lin2{
+.sec_container{
+    margin-left: 30px;
+}
+/*#lin2{
     padding-top: 20px;
 }
 #lin3{
